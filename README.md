@@ -1,4 +1,4 @@
-![bg](https://github.com/user-attachments/assets/f233a2ed-1932-444e-9528-59085ad5b372)# Tushar-s-Entertainment-Hub
+
 using HTML,CSS,Javascript
 # Tushar's Entertainment Hub
 

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tushar's Entertainment Hub</title>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>Welcome to Tushar's Entertainment Hub</header>
+
+    <div class="options">
+        <div class="game-box" onclick="showInstructions('Dice Game', 'Roll the dice by refreshing the page and test your luck!', 'https://tushar-shinde-1.github.io/dice-game/')">
+            🎲
+            <h2>Dice Game</h2>
+        </div>
+        <div class="game-box" onclick="showInstructions('Simon Game', 'Follow the pattern from the start to the latest sequence (keyboard needed to start the game)!', 'https://tushar-shinde-1.github.io/Simon-Game/')">
+            🎮
+            <h2>Simon Game</h2>
+        </div>
+        <div class="game-box" onclick="showInstructions('Drum Kit', 'Play the drums using keyboard keys or by clicking/tapping on them!', 'https://tushar-shinde-1.github.io/drumkit1/')">
+            🥁
+            <h2>Drum Kit</h2>
+        </div>
+        <div class="game-box" onclick="showInstructions('Love Calculator', 'Calculate your love percentage by entering names! ( Made just for fun and not a real compatibility calculator)', 'https://tushar-shinde-1.github.io/Love-Calculator-/')">
+            💘
+            <h2>Love Calculator</h2>
+        </div>
+    </div>
+
+    <footer>
+        Created with ❤️ by Tushar
+    </footer>
+
+    <div class="instruction-overlay" id="instructionOverlay">
+        <div class="instruction-box">
+            <p id="instructionText">Loading...</p>
+            <button id="agreeBtn">I Agree, Let's Play!</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+/* style.css */
+body {
+    
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right,#f8b500, #f9dd98, #f8b500);
+    font-family: 'Comic Neue', cursive;
+    text-align: center;
+    color: #333;
+}
+
+header {
+    background-color: #ff66b2;
+    
+        background-image: url('bg.jpg');
+        background-size: cover;
+        background-position: center;
+
+    
+    color: white;
+    padding: 30px;
+    font-size: 40px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+.options {
+    display: flex;
+    flex-direction: column; /* Change from row to column */
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+
+.game-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    width: 200px;
+}
+
+.game-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 15px 25px rgba(0,0,0,0.3);
+}
+
+.game-box h2 {
+    margin: 10px 0 0;
+    font-size: 24px;
+}
+
+footer {
+    margin-top: 40px;
+    padding: 20px;
+    background: linear-gradient(to bottom, #b84cdf, #9210bd, #640080);
+    color: #fefefe;
+}
+
+.instruction-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.instruction-box {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 400px;
+    text-align: center;
+}
+
+.instruction-box p {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.instruction-box button {
+    padding: 10px 20px;
+    background-color: #ff66b2;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}

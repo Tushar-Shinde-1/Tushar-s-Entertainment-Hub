@@ -43,10 +43,5 @@ Each game or tool includes an instruction page that the user must agree to befor
 - CSS3 (with Google Fonts)
 - JavaScript
 
-## Credits
-
-Created with ❤️ by Tushar Shinde.
-
-## License
 
 This project is open-source and free to use for educational and personal purposes.

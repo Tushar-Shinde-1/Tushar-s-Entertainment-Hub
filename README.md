@@ -43,5 +43,13 @@ Each game or tool includes an instruction page that the user must agree to befor
 - CSS3 (with Google Fonts)
 - JavaScript
 
+## Project Links
+
+- [Simon Game](https://github.com/Tushar-Shinde-1/Simon-Game)  
+- [Dice Game](https://github.com/Tushar-Shinde-1/dice-game)  
+- [Love Calculator](https://github.com/Tushar-Shinde-1/Love-Calculator-)  
+- [Drum Kit](https://github.com/Tushar-Shinde-1/drumkit1)  
+
+---
 
 This project is open-source and free to use for educational and personal purposes.
